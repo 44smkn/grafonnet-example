@@ -10,6 +10,7 @@ local dashboard = {
      *
      * @param title The title of the dashboard
      * @param tags (optional) Array of tags associated to the dashboard, e.g.`['tag1','tag2']`
+     * @param description The description of the dashboard
     */
     new(title, tags, description):: grafana.dashboard.new(
         title,
